@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HASSAN 2</title>
+</head>
+
+<body>
+    <header>
+        <h1>WELCOME TO MY WEBSITE</h1>
+    </header>
+
+
+
+
+
+
+
+    <nav>
+        <a href="#home">HOME</a>
+        <a href="#menu">MENU</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+
+
+
+        <div id="home" class="section">
+        <section> 
+        <center>
+            <h1> <b>COMPARE BETWEEN PM IMRAN KHAN
+                AND 
+                PM SHABAAZ SHARIF
+            </b> </h1>
+        </center>
+        <br>
+       <p><h1>Imran Khan</h1><h2> Leadership Style:</h2><h3>:Background:</h3> Former cricketer and captain of the Pakistan national cricket team, philanthropist.
+        Political Career: Founded Pakistan Tehreek-e-Insaf (PTI) in 1996. Became Prime Minister in 2018.
+        Focus Areas: Anti-corruption, welfare state model, and reforms in health and education.
+      
+        
+       
+        
+       
+
+Leadership Style: Charismatic and populist, often emphasizing a new political vision and the fight against corruption.
+Governance: Focused on institutional reforms, social welfare programs like Ehsaas Program, and austerity measures.
+
+
+Economic Policies: Advocated for austerity measures, reducing reliance on foreign loans, and enhancing tax collection. Focused on social welfare and poverty alleviation.
+Challenges: Faced economic instability, inflation, and difficulties in implementing reforms.
+
+
+
+
+
+
+    </p></section>
+
+        </div>
+         <div id="hassu">
+
+         <center><img height="400" src="../test1.html/Screenshot (79)_processed.jpg" alt="image"></center>
+         
+        
+         <div id="menu" class="section">
+        </center>
+        <br>
+       <p><h1>Shahbaz Sharif:</h1><h2> Leadership Style:</h2><h3>:Background:</h3>ackground: Businessman by profession.
+        Political Career: Member of Pakistan Muslim League (Nawaz) (PML-N). Served as the Chief Minister of Punjab for three terms.
+        Focus Areas: Infrastructure development, economic growth, and law and order.Leadership Style: Pragmatic and administrative, known for his hands-on approach and focus on development projects.
+        Governance: Emphasizes infrastructure projects, such as metro bus systems and energy projects, and quick decision-making.Economic Policies: Focused on large-scale infrastructure projects to stimulate economic growth. Emphasized attracting foreign investment and improving industrial output.
+        Challenges: Criticized for increasing debt and alleged corruption within mega-projects.</p></div>
+
+
+        
+         <center><img height="400" src="../practice.css/abev (1) (1).webp" alt="image"></center>
+
+
+         <div id="yes" class="section">
+
+         <h2> YOUR FAVORITE</h2>
+         <br>
+         <select>
+         <option value="Imran">IMRAN KHAN </option>
+         <option value="shabaaz">SHAHBAAZ SHARIF</option>
+         
+       
+        </select>
+        <hr>
+         <form>
+         
+         <input type="submit" name="submit">
+         </form>
+         </div>
+
+
+
+
+
+
+
+STYLE.CSS
+
+
+
+
+
+  body, h1, h2, h3, p, ul, li, form, input, textarea, button {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+
+
+
+header {
+    background-color: #24d0e7; 
+    color: rgb(0, 0, 0); 
+    text-align: center; 
+    padding: 1em 0;
+}
+
+
+nav {
+    background-color: #95e1e4; 
+    text-align: center; 
+    padding: 0.5em 0; 
+
+}
+
+
+
+nav li {
+    margin: 0 2em; 
+
+}
+
+nav a {
+    color: #000000; 
+}
+
+nav a:hover {
+    color: #5A2D0C;    
+
+} 
+
+
+.section {
+    padding: 2em 1em;
+}
+
+#hassu{
+    
+    background-color: #000000;
+    color: white;
+  
+
+}
+
+
+
+
+
+#home {
+    background-color:rgb(191, 226, 195);
+   
+}
+
+#menu {
+     background-color: rgb(180, 223, 180);
+   
+     color: #000000;
+     border-image-outset: 2cm;
+
+
+}
+
+#yes {
+   background-color: #000000;
+   text-align: center; 
+   border-image-outset: 2cm;
+}
+
+#style{}
+
+
+
+
+.menu {
+    background: rgb(252, 252, 186);
+    border: 2px solid #000000; 
+    margin: 1em 0; 
+    padding: 1em; 
+    border-radius: 10px; 
+}
+
+.menu h3 {
+    margin-bottom: 0.5em; 
+}
+
+.menu span {
+    margin-top: 0.5em; 
+    font-weight: bold; 
+    color: #8B4513; 
+}
+
+
+label {
+    margin: 0.5em 0 0.2em;
+}
+
+input, textarea {
+    padding: 0.5em; 
+    margin-bottom: 1em; 
+    background-color: #dee6b2;
+    border: 2px solid #0f0404; 
+    border-radius: 5px; 
+    width: 92vw;
+}
+
+button {
+    background-color: #f70000; 
+    color: rgb(252, 250, 250); 
+    padding: 0.5em; 
+    border:2px solid #000000 ; 
+    border-radius: 5px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
